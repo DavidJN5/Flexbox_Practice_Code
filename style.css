@@ -1,0 +1,64 @@
+html {
+    background-color: #fa923f;
+    padding: 10px;
+}
+
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+}
+
+/*flexbox*/
+.parent {
+    background-color: #f073e1;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display: flex; /*display flex starts*/
+	flex-flow: row wrap; /*first value = flex-direstion and second value = flex-wrap*/
+	align-items: center;
+	justify-content: center;
+	align-content: space-between;
+}
+ 
+.div1 {
+    background-color: #f800db;
+    margin: 5px;
+	order: 1;
+}
+
+.div2 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+	align-self: flex-end;
+}
+
+.div3 {
+    background-color: #f800db;
+    margin: 5px;
+    height: 150px;
+}
+
+.div4 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 150px;
+    height: 150px;         
+}
+
+.div5 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 200px;   
+	flex:  0 1 auto; /*1: flex-grow 2: flex-shrink 3: flex-basis */
+}
+
+.div6 {
+    background-color: #f800db;
+    margin: 5px;
+    width: 200px;
+	flex: 0 1 auto;
+}
